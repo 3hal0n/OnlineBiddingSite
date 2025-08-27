@@ -1,0 +1,141 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    
+}
+
+.profile-section {
+    width: 30%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left : -1000px;
+}
+
+.profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.profile-section h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.rating {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    color: #FFD700;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+thead {
+    background-color: #4CAF50;
+    color: white;
+}
+
+table td {
+    padding: 10px;
+}
+
+table th {
+    padding: 12px 15px;
+}
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn_update_item {
+	padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn_delete_item {
+    background-color: #f44336;
+    color: white;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+

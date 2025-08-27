@@ -1,0 +1,84 @@
+/* Global reset and font settings */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container for the form */
+.container {
+    background-color: #ffffff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 350px;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    color: #88b04b; /* Light green */
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    color: #6b8e23; /* Darker green */
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Input field styling */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+input[type="textarea"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #88b04b; /* Light green border */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+/* Focus state for input fields */
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus,
+input[type="textarea"]:focus {
+    border-color: #6b8e23; /* Darker green on focus */
+}
+
+/* Submit button styling */
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #88b04b; /* Light green */
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover state for the submit button */
+.submit-btn:hover {
+    background-color: #6b8e23; /* Darker green */
+}
+
+/* Responsive styling for mobile */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+        padding: 15px;
+    }
+}

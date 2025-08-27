@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee" 
+	   	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   	 xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" 
+	   	 version="3.1">
+	   	
+	
+	<servlet>
+		<servlet-name>AddAuction</servlet-name>
+		<servlet-class>Bidding.AddAuctionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>AddAuction</servlet-name>
+		<url-pattern>/add_auction</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>DeleteAuction</servlet-name>
+		<servlet-class>Bidding.DeleteAuctionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DeleteAuction</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>UpdateAuction</servlet-name>
+		<servlet-class>Bidding.UpdateAuctionServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateAuction</servlet-name>
+		<url-pattern>/auctionUpdate</url-pattern>
+	</servlet-mapping>
+	
+	
+		<display-name>Bidding-System</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>bid-form.jsp</welcome-file>
+	</welcome-file-list>
+	<servlet>
+		<servlet-name>add</servlet-name>
+		<servlet-class>Bidding.BiddingServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>add</servlet-name>
+		<url-pattern>/bid_new</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>view</servlet-name>
+		<servlet-class>Bidding.BiddingServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>view</servlet-name>
+		<url-pattern>/bid_list</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>insert</servlet-name>
+		<servlet-class>Bidding.BiddingServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>insert</servlet-name>
+		<url-pattern>/bid_insert</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>Bidding.BiddingServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/bid_delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>edit</servlet-name>
+		<servlet-class>Bidding.BiddingServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>edit</servlet-name>
+		<url-pattern>/bid_edit</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>Bidding.BiddingServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/bid_update</url-pattern>
+	</servlet-mapping>
+	</web-app>

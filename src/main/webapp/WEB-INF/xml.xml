@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+
+         version="3.1">
+
+
+
+
+
+
+
+     <servlet>
+
+     	<servlet-name>InsertServlet </servlet-name>
+
+     	<servlet-class>Bidding.InsertServlet</servlet-class>
+
+     </servlet>
+
+     <servlet-mapping>
+
+     	<servlet-name>InsertServlet</servlet-name>
+
+     	<url-pattern>/InsertServlet</url-pattern>
+
+     </servlet-mapping>
+
+     
+
+     
+
+     
+
+     <servlet>
+
+     	<servlet-name>GetAllServlet </servlet-name>
+
+     	<servlet-class>Bidding.GetAllServlet</servlet-class>
+
+     </servlet>
+
+     <servlet-mapping>
+
+     	<servlet-name>GetAllServlet</servlet-name>
+
+     	<url-pattern>/GetAllServlet</url-pattern>
+
+     </servlet-mapping>
+
+
+
+	<servlet>
+
+     	<servlet-name>InsertContactServlet </servlet-name>
+
+     	<servlet-class>Bidding.InsertContactServlet</servlet-class>
+
+     </servlet>
+
+     <servlet-mapping>
+
+     	<servlet-name>InsertContactServlet</servlet-name>
+
+     	<url-pattern>/InsertContactServlet</url-pattern>
+
+     </servlet-mapping>
+
+     
+
+     <servlet>
+
+     	<servlet-name>DeleteServlet </servlet-name>
+
+     	<servlet-class>Bidding.DeleteServlet</servlet-class>
+
+     </servlet>
+
+     <servlet-mapping>
+
+     	<servlet-name>DeleteServlet</servlet-name>
+
+     	<url-pattern>/DeleteServlet</url-pattern>
+
+     </servlet-mapping>
+
+     <servlet>
+     	<servlet-name>productsServletA</servlet-name>
+     	<servlet-class>Bidding.productsServletA</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>productsServletA</servlet-name>
+     	<url-pattern>/viewAllProducts</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>UserServletA</servlet-name>
+     	<servlet-class>Bidding.UserServletA</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UserServletA</servlet-name>
+     	<url-pattern>/viewUsers</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>UpdateUserServletA</servlet-name>
+     	<servlet-class>Bidding.UpdateUserServletA</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>UpdateUserServletA</servlet-name>
+     	<url-pattern>/UpdateUserServletA</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>userDeleteServletA</servlet-name>
+     	<servlet-class>Bidding.userDeleteServletA</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>userDeleteServletA</servlet-name>
+     	<url-pattern>/userDeleteServletA</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>sellerServletA</servlet-name>
+     	<servlet-class>Bidding.sellerServletA</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>sellerServletA</servlet-name>
+     	<url-pattern>/viewSellers</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>updateSellerServletA</servlet-name>
+     	<servlet-class>Bidding.updateSellerServletA</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>updateSellerServletA</servlet-name>
+     	<url-pattern>/updateSellerServletA</url-pattern>
+     </servlet-mapping>
+     
+     <servlet>
+     	<servlet-name>sellerDeleteServletA</servlet-name>
+     	<servlet-class>Bidding.sellerDeleteServletA</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     	<servlet-name>sellerDeleteServletA</servlet-name>
+     	<url-pattern>/sellerDeleteServletA</url-pattern>
+     </servlet-mapping>
+     
+
+</web-app>
